@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+header {
+  width: 100%;
+  background-color: #055647;
+  position: sticky;
+  top: 0;
+  z-index: 40
+}
+
+header article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 1rem;
+  max-width: 100%;
+  width: 100%
+}
+
+header article h5 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  margin-right: auto;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: 0;
+  margin-left: 5rem
+}
+
+header li a{
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+  text-transform: uppercase;
+}

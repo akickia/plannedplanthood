@@ -1,0 +1,21 @@
+
+
+footer {
+  width: 100%;
+  background-color: #055647;
+  text-align: center;
+  padding: 1.5rem;
+  position: absolute;
+  bottom: 0
+}
+
+footer small {
+  font-size: 1rem;
+  letter-spacing: 0.025em;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}

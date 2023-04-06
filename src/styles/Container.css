@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0
+}
+
+.container aside {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem
+}
+
+.container h3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+ h4 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.container h6 {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.round-img {
+  width: 377px;
+  height: 377px;
+  border-radius: 50%;
+  border: 14px solid #0A846E;
+  margin: 2.5rem
+}
+
+.news-section button {
+  align-self: flex-end;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.about-container p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+input {
+  width: 230px;
+  height: 40px;
+  border: 1px solid #03382F;
+  padding: .5rem;
+  padding-bottom: 0;
+}
+
+input::placeholder {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.plants-container {
+  align-items: flex-start;
+}
+
